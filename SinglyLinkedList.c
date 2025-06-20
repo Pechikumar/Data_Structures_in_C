@@ -15,9 +15,11 @@ int main() {
    head->link=first;
     first->link=second;
     second->link=NULL;
-   head->n=45;
-    first->n=46;
-    second->n=47;
+   while(p!=NULL){
+       scanf("%d",&(p->n));
+       p=p->link;
+   }
+   p=head;
    while(p!=NULL){
        printf("%d\n",p->n);
        p=p->link;

@@ -86,7 +86,7 @@ int main() {
     // Print the list in forward and backward directions
     printForward(head);
     printBackward(head);
-
+    printf("Git Push!");
     return 0;
 }
 

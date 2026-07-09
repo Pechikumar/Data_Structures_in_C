@@ -87,6 +87,7 @@ int main() {
     printForward(head);
     printBackward(head);
     printf("Git Push!");
+    printf("Git Push2!");
     return 0;
 }
 

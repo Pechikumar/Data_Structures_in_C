@@ -24,6 +24,6 @@ int main() {
        printf("%d\n",p->n);
        p=p->link;
    }
-   
+    printf("Git Push!");
     return 0;
 }
